@@ -11,3 +11,5 @@ INSERT INTO entity_spawns VALUES (1,'player','town1');
 INSERT INTO entity_spawns VALUES (2,'goblinger','forest1');
 INSERT INTO item_spawns VALUES (1,'test_sword','town1');
 INSERT INTO item_spawns VALUES (2,'test_potion','forest1');
+
+UPDATE entity_templates SET chase_behavior = 'chase', tenacity = 8, cautiousness = 'low' WHERE id = 'goblinger';
