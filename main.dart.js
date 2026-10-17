@@ -22856,7 +22856,7 @@ U7(){var s=0,r=A.x(t.H),q=1,p=[],o,n,m,l,k,j,i,h,g,f,e,d,c,b,a,a0,a1,a2,a3,a4,a5
 var $async$U7=A.y(function(a7,a8){if(a7===1){p.push(a8)
 s=q}for(;;)switch(s){case 0:if($.aa==null)A.atm()
 $.aa.toString
-l=A.aKd("muddy_world_definitions",null,new A.Yc(A.dn("sqlite3.wasm"),A.dn("drift_worker.dart.js")))
+l=A.aKd("muddy_world_definitions",null,new A.Yc(A.dn("sqlite3.wasm"),A.dn("drift_worker.js")))
 o=new A.Mc(l)
 q=3
 n=new A.ad7(o)
