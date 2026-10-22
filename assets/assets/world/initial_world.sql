@@ -65,7 +65,7 @@ INSERT INTO entity_templates (
   );
 
 -- Item definitions
-INSERT INTO item_templates (id, name, sprite_path, type)
+INSERT INTO item_templates (id, name, sprite_path, item_type)
 VALUES
   ('test_sword', 'Test Sword',
    'item_icons/test_sword.png', 'weaponMelee'),
